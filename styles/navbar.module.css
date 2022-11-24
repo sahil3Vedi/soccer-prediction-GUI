@@ -1,0 +1,28 @@
+.navbar{
+    padding:10px;
+    display:grid;
+    grid-template-columns:auto 1fr 100px 60px 90px 90px 80px;
+    column-gap:10px;
+    background-color:#000000;
+    position:fixed;
+    top:0px;
+    width:100%;
+    color:white;
+}
+.navbarLogo{
+    cursor: pointer;
+}
+.brandText{
+    color:white;
+    margin:0px;
+    cursor:pointer;
+    font-size:28px;
+}
+.navbarLink{
+    font-size:20px;
+    cursor:pointer;
+    margin:7px 0px 0px 0px;
+}
+.navbarLink:hover{
+    text-decoration: underline;
+}

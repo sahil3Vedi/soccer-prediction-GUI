@@ -1,0 +1,23 @@
+.fixture{
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 5px;
+
+    p{
+        margin-bottom: 0;
+    }
+}
+
+.predictions{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.predictionsTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
